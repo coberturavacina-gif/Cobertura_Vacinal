@@ -118,3 +118,101 @@ CREATE TABLE cobertura_vacinal (
     FOREIGN KEY (id_vacina) REFERENCES vacina(id_vacina),
     FOREIGN KEY (id_periodo) REFERENCES periodo(id_periodo)
 );
+
+# Dashboard Analítico de Vacinação – Região Metropolitana de Curitiba
+
+Autora: Katia Dhaem  
+Curso: Gestão da Tecnologia da Informação – IFPR Campus Pinhais  
+
+---
+
+# Sobre o Projeto
+
+Este projeto consiste no desenvolvimento de um **dashboard analítico em Power BI** voltado à análise da cobertura vacinal da **Região Metropolitana de Curitiba – PR**.
+
+A solução utiliza dados públicos de saúde para gerar indicadores e visualizações que auxiliam na interpretação das informações relacionadas à imunização da população.
+
+---
+
+# Objetivos
+
+- Analisar a evolução da cobertura vacinal
+- Comparar diferentes vacinas
+- Identificar quedas de cobertura
+- Apoiar tomada de decisão em saúde pública
+- Visualizar dados da Região Metropolitana de Curitiba
+
+---
+
+# Estrutura do Repositório
+Cobertura_Vacinal/
+│
+├── documentacao/
+│ └── gestao_monitoramento_sprint1.md
+│
+├── dados/
+│
+├── dashboard/
+│
+└── README.md
+
+---
+
+# Documentação do Projeto
+
+Os documentos de gestão e monitoramento quinzenais estão disponíveis na pasta:
+
+📁 `documentacao/`
+
+## Sprint 1
+- gestao_monitoramento_sprint1.md
+
+---
+
+# Metodologia
+
+O projeto segue metodologia baseada em:
+
+- Sprint quinzenal
+- Daily Scrum
+- Review e Retrospectiva
+- Planejamento incremental
+- Monitoramento contínuo
+
+---
+
+# 🗃 Fonte dos Dados
+
+Os dados utilizados são provenientes de:
+
+- Ministério da Saúde
+- IPARDES
+- Dados Abertos do Paraná
+- Bases públicas de imunização
+
+---
+
+# Ferramentas Utilizadas
+
+- Power BI
+- Excel
+- GitHub
+- MySQL Workbench
+- BRModelo
+- Power Query
+
+---
+
+# Status do Projeto
+
+ Em desenvolvimento  
+Sprint atual: Sprint 1  
+Próxima etapa: Modelagem dos dados e construção do dashboard  
+
+---
+
+# Autora
+
+Katia Dhaem  
+IFPR – Gestão da Tecnologia da Informação  
+Projeto Interdisciplinar II
