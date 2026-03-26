@@ -166,6 +166,8 @@ Os documentos de gestão e monitoramento quinzenais estão disponíveis na pasta
 
 ## Sprint 1
 - gestao_monitoramento_sprint1.md
+- gestao_monitoramento_sprint2.md
+- gestao_monitoramento_sprint3.md
 
 ---
 
