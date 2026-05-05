@@ -37,14 +37,14 @@ Período: 05/03/2026 a 22/03/2026
 Objetivo da Sprint
 Definir tema, coletar dados abertos e estruturar modelagem do banco de dados.
 
-| ID | Tarefa | Responsável | Início | Fim | Solução |
-|----|--------|-------------|--------|-----|--------|
-| UC01 | Definir tema | Katia | 05/03 | 05/03 | Escolha BI |
-| UC02 | Pesquisa dados | Katia | 09/03 | 09/03 | Buscar bases |
-| UC03 | Contato saúde | Katia | 10/03 | 12/03 | Consulta epidemiologia |
-| UC04 | Obter dados vacinação | Katia | 17/03 | 18/03 | InfoMS |
-| UC05 | Modelagem banco | Katia | 19/03 | 19/03 | DER |
-| UC06 | Nova base IPARDES | Katia | 22/03 | 22/03 | Filtragem |
+| Tarefa | Responsável | Início | Fim | Solução |
+|--------|-------------|--------|-----|--------|
+| Definir tema | Katia | 05/03 | 05/03 | Escolha BI |
+| Pesquisa dados | Katia | 09/03 | 09/03 | Buscar bases |
+| Contato saúde | Katia | 10/03 | 12/03 | Consulta epidemiologia |
+| Obter dados vacinação | Katia | 17/03 | 18/03 | InfoMS |
+| Modelagem banco | Katia | 19/03 | 19/03 | DER |
+| Nova base IPARDES | Katia | 22/03 | 22/03 | Filtragem |
 
 ## Review e Retrospectiva
 
