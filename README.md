@@ -1,220 +1,178 @@
-Dashboard de Cobertura Vacinal – Município de Pinhais
+<p align="center">
+  <img src="imagens/logo_vacinaRMC.png" alt="VacinaRMC" width="650"/>
+</p>
 
- Autora
-Katia Dhaem  
-Curso: Gestão da Tecnologia da Informação – IFPR Câmpus Pinhais  
+<h1 align="center">VacinaRMC</h1>
 
- 1. Sobre o Projeto
+<p align="center">
+<b>Dashboard Inteligente de Vacinação</b><br>
+Dados que protegem. Informações que transformam.
+</p>
 
-Este projeto consiste no desenvolvimento de um **dashboard analítico em Power BI** voltado à análise de dados de cobertura vacinal do município de **Pinhais – PR**.
+<p align="center">
 
-A solução utiliza **dados públicos de saúde** para gerar indicadores e visualizações que auxiliam na interpretação de informações relacionadas à imunização da população.
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![IFPR](https://img.shields.io/badge/Projeto-IFPR-blue)
 
-O dashboard permite:
-
-- analisar a evolução da cobertura vacinal  
-- comparar diferentes vacinas  
-- identificar padrões e tendências  
-- apoiar estudos sobre políticas públicas de saúde  
-
-
-2. Objetivos
-
-- Analisar dados públicos de vacinação  
-- Identificar padrões de cobertura vacinal  
-- Facilitar a interpretação de dados de saúde pública  
-- Apoiar estudos acadêmicos e decisões baseadas em dados  
-
-
-3. Funcionalidades do Dashboard
- Indicadores principais
-- Cobertura vacinal média  
-- Total de doses aplicadas  
-- Número de vacinas analisadas  
-- População imunizada  
-
-Filtros interativos
-- Ano  
-- Tipo de vacina  
-- Município  
-- Faixa etária  
-
-Visualizações
-- Gráfico de barras (cobertura por vacina)  
-- Gráfico de linha (evolução ao longo do tempo)  
-- Gráfico de colunas (comparações)  
-- Tabela de indicadores  
-
- 4. Tecnologias Utilizadas
-
-- Power BI Desktop  
-- Excel  
-- Power Query  
-- MySQL Workbench (modelagem de dados)  
-- BRModelo (DER)  
-- GitHub  
-
- 5. Modelagem de Dados
-
-O projeto utiliza uma estrutura baseada em banco de dados relacional e NoSQL.
-
-Modelo Conceitual
-O sistema foi modelado com uma entidade associativa:
-
-- Município  
-- Vacina  
-- Período  
-- Cobertura_Vacinal  
-
-A entidade **Cobertura_Vacinal** representa a relação entre as demais entidades, armazenando os dados de vacinação.
-
-Modelo Lógico
-
-Principais tabelas:
-
-- municipio  
-- vacina  
-- periodo  
-- cobertura_vacinal  
-
-DER
-O Diagrama Entidade-Relacionamento foi desenvolvido utilizando o BRModelo, seguindo boas práticas de modelagem.
-
-6. Banco de Dados
-
-Banco Relacional (MySQL)
-
-Script de criação:
-
-sql
-CREATE DATABASE cobertura_vacinal;
-USE cobertura_vacinal;
-
-CREATE TABLE municipio (
-    id_municipio INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100),
-    uf CHAR(2)
-);
-
-CREATE TABLE vacina (
-    id_vacina INT AUTO_INCREMENT PRIMARY KEY,
-    nome_vacina VARCHAR(100)
-);
-
-CREATE TABLE periodo (
-    id_periodo INT AUTO_INCREMENT PRIMARY KEY,
-    ano INT
-);
-
-CREATE TABLE cobertura_vacinal (
-    id_cobertura INT AUTO_INCREMENT PRIMARY KEY,
-    id_municipio INT,
-    id_vacina INT,
-    id_periodo INT,
-    cobertura_percentual DECIMAL(5,2),
-    doses_aplicadas INT,
-    fonte_dado VARCHAR(255),
-    FOREIGN KEY (id_municipio) REFERENCES municipio(id_municipio),
-    FOREIGN KEY (id_vacina) REFERENCES vacina(id_vacina),
-    FOREIGN KEY (id_periodo) REFERENCES periodo(id_periodo)
-);
-
-# Dashboard Analítico de Vacinação – Região Metropolitana de Curitiba
-
-Autora: Katia Dhaem  
-Curso: Gestão da Tecnologia da Informação – IFPR Campus Pinhais  
+</p>
 
 ---
 
-# Sobre o Projeto
+# 📖 Sobre o Projeto
 
-Este projeto consiste no desenvolvimento de um **dashboard analítico em Power BI** voltado à análise da cobertura vacinal da **Região Metropolitana de Curitiba – PR**.
+O **VacinaRMC** é um Dashboard Inteligente de Vacinação desenvolvido em **Power BI**, criado como Projeto Interdisciplinar do curso de Gestão da Tecnologia da Informação do **Instituto Federal do Paraná (IFPR) – Campus Pinhais**.
 
-A solução utiliza dados públicos de saúde para gerar indicadores e visualizações que auxiliam na interpretação das informações relacionadas à imunização da população.
+O dashboard analisa a evolução da cobertura vacinal dos municípios da **Região Metropolitana de Curitiba (RMC)** utilizando dados públicos do Ministério da Saúde e do IPARDES.
 
----
-
-# Objetivos
-
-- Analisar a evolução da cobertura vacinal
-- Comparar diferentes vacinas
-- Identificar quedas de cobertura
-- Apoiar tomada de decisão em saúde pública
-- Visualizar dados da Região Metropolitana de Curitiba
+Além da cobertura vacinal, o projeto integra dados sobre a entrada de estrangeiros na região, permitindo análises complementares sobre possíveis fatores relacionados à variação dos índices de vacinação entre os anos de **2019 e 2024**.
 
 ---
 
-# Estrutura do Repositório
-Cobertura_Vacinal/
+# 🎯 Objetivos
+
+- Monitorar a cobertura vacinal da Região Metropolitana de Curitiba;
+- Comparar indicadores entre municípios;
+- Visualizar a evolução da vacinação ao longo dos anos;
+- Identificar municípios com cobertura crítica;
+- Integrar dados de vacinação e estrangeiros;
+- Apoiar gestores e profissionais da saúde na tomada de decisão.
+
+---
+
+# 🚀 Funcionalidades
+
+### 📊 Indicadores
+
+- Cobertura Vacinal Média
+- Maior Cobertura
+- Menor Cobertura
+- Cobertura Crítica
+- Classificação da Cobertura
+
+### 📈 Visualizações
+
+- Mapa Interativo da Região Metropolitana de Curitiba
+- Evolução da Cobertura Vacinal
+- Comparação entre Municípios
+- Comparação por Vacina
+- Indicadores (KPIs)
+
+### 🔍 Filtros
+
+- Município
+- Vacina
+- Ano
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+- Power BI Desktop
+- Power Query
+- Microsoft Excel
+- Figma
+- GitHub
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+Cobertura_Vacinal
 │
-├── documentacao/
-│ └── gestao_monitoramento_sprint1.md
+├── dashboard/
+│   └── Dashboard.pbix
 │
 ├── dados/
 │
-├── dashboard/
+├── documentacao/
+│   ├── Projeto_Interdisciplinar_II.pdf
+│   ├── gestao_monitoramento_sprint1.md
+│   ├── gestao_monitoramento_sprint2.md
+│   ├── gestao_monitoramento_sprint3.md
+│   ├── gestao_monitoramento_sprint4.md
+│   └── Relatorio_Desempenho_Sprint4.md
+│
+├── imagens/
+│   └── logo_vacinaRMC.png
 │
 └── README.md
+```
 
 ---
 
-# Documentação do Projeto
+# 📑 Documentação
 
-Os documentos de gestão e monitoramento quinzenais estão disponíveis na pasta:
+Toda a documentação do projeto encontra-se na pasta **documentacao**.
 
-📁 `documentacao/`
-
-## Sprint 1
-- gestao_monitoramento_sprint1.md
-- gestao_monitoramento_sprint2.md
-- gestao_monitoramento_sprint3.md
-
----
-
-# Metodologia
-
-O projeto segue metodologia baseada em:
-
-- Sprint quinzenal
-- Daily Scrum
-- Review e Retrospectiva
-- Planejamento incremental
-- Monitoramento contínuo
+- Sprint 1
+- Sprint 2
+- Sprint 3
+- Sprint 4
+- Relatório de Desempenho
+- Projeto Interdisciplinar II
 
 ---
 
-# 🗃 Fonte dos Dados
+# 📊 Fontes dos Dados
 
-Os dados utilizados são provenientes de:
+Os dados utilizados são provenientes de bases públicas:
 
 - Ministério da Saúde
+- InfoMS
 - IPARDES
 - Dados Abertos do Paraná
-- Bases públicas de imunização
 
 ---
 
-# Ferramentas Utilizadas
+# 📌 Metodologia
 
-- Power BI
-- Excel
-- GitHub
-- MySQL Workbench
-- BRModelo
-- Power Query
+O projeto foi desenvolvido utilizando:
 
----
-
-# Status do Projeto
-
- Em desenvolvimento  
-Sprint atual: Sprint 1  
-Próxima etapa: Modelagem dos dados e construção do dashboard  
+- Design Thinking
+- Scrum
+- Product Backlog
+- Daily Scrum
+- Sprint Review
+- Sprint Retrospective
 
 ---
 
-# Autora
+# 📈 Dashboard
 
-Katia Dhaem  
-IFPR – Gestão da Tecnologia da Informação  
-Projeto Interdisciplinar II
+O dashboard permite:
+
+- Visualizar a evolução da cobertura vacinal;
+- Comparar indicadores entre municípios;
+- Filtrar por vacina e período;
+- Identificar municípios com cobertura abaixo da meta;
+- Analisar dados relacionados à população estrangeira na RMC.
+
+---
+
+# 🎓 Projeto Acadêmico
+
+Projeto desenvolvido como requisito da disciplina **Projeto Interdisciplinar II**, do Curso Superior de Tecnologia em Gestão da Tecnologia da Informação do **Instituto Federal do Paraná (IFPR) – Campus Pinhais**.
+
+---
+
+# 👩‍💻 Autora
+
+**Katia Dhaem**
+
+Curso Superior de Tecnologia em Gestão da Tecnologia da Informação
+
+Instituto Federal do Paraná – Campus Pinhais
+
+---
+
+<p align="center">
+
+### VacinaRMC
+
+**Dashboard Inteligente de Vacinação**
+
+Dados que protegem. Informações que transformam.
+
+</p>
