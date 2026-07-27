@@ -1,3 +1,20 @@
+# Dashboard Analítico de Cobertura Vacinal da Região Metropolitana de Curitiba
+
+<p align="center">
+  <img src="imagens/logo_vacinaRMC.png" width="250">
+</p>
+
+## Dashboard – Página 1
+
+<p align="center">
+  <img src="imagens/dashboard_cobertura1.png" width="1000">
+</p>
+
+## Dashboard – Página 2
+
+<p align="center">
+  <img src="imagens/dashboard_cobertura2.png" width="1000">
+</p>
 <p align="center">
   <img src="imagens/logo_vacinaRMC.png" alt="VacinaRMC" width="650"/>
 </p>
