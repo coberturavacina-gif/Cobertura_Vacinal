@@ -7,11 +7,13 @@ Dashboard Analítico de Cobertura Vacinal da Região Metropolitana de Curitiba
 </p>Dashboard – Página 2
 <p align="center">
   <img src="imagens/dashboard_cobertura2.png" width="1000">
- ## Fluxograma do Projeto Power Vacina RMC
+## Fluxograma do Projeto Power Vacina RMC
 
 <p align="center">
-  <img src="imagens/fluxo_power_vacina_rmc.png" alt="Fluxograma do Projeto Power Vacina RMC" width="1100">
+  <img src="imagens/Fluxo%20do%20Projeto%20Power%20Vacina%20RMC.png" alt="Fluxograma do Projeto Power Vacina RMC" width="1100">
 </p>
+
+O fluxograma apresenta as etapas do projeto, desde as bases públicas de cobertura vacinal até a criação do dashboard no Power BI, o teste de usabilidade com sete profissionais da USF Vila Amélia e a divulgação do cartaz educativo sobre poliomielite, com 10 respostas ao formulário.
 
 O fluxograma apresenta as etapas do projeto, desde a utilização de bases públicas e o tratamento dos dados até a criação do dashboard no Power BI, o teste de usabilidade com sete profissionais da USF Vila Amélia e a divulgação do cartaz educativo sobre poliomielite, com 10 respostas ao formulário.
 Fluxograma do Projeto Power Vacina RMC
