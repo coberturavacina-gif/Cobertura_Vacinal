@@ -7,6 +7,13 @@ Dashboard Analítico de Cobertura Vacinal da Região Metropolitana de Curitiba
 </p>Dashboard – Página 2
 <p align="center">
   <img src="imagens/dashboard_cobertura2.png" width="1000">
+  ## Fluxograma do Projeto Power Vacina RMC
+
+<p align="center">
+  <img src="imagens/fluxo_power_vacina_rmc.png"
+       alt="Fluxograma do Projeto Power Vacina RMC"
+       width="1100">
+</p>
 </p><!-- ACRÉSCIMO: FLUXOGRAMA DO PROJETO -->
 Fluxograma do Projeto Power Vacina RMC
 <p align="center">
