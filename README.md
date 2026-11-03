@@ -90,20 +90,41 @@ Cobertura_Vacinal
 │   └── fluxo_power_vacina_rmc.png
 │
 └── README.md
-📑 Documentação
-Toda a documentação do projeto encontra-se na pasta documentacao.
+
+# 📑 Documentação
+
+Toda a documentação do projeto encontra-se na pasta **documentacao**.
+
+### Projeto Interdisciplinar II
+
 - Sprint 1
 - Sprint 2
 - Sprint 3
 - Sprint 4
 - Relatório de Desempenho
 - Projeto Interdisciplinar II
-<!-- ACRÉSCIMO: DOCUMENTAÇÃO DO PROJETO III -->
-Documentos do Projeto Interdisciplinar III (2026/2):
-- [Template do Projeto Interdisciplinar III](documentacao/Template_Projeto_III.pdf)
-- [Relato de experiência da ação de extensão](documentacao/Relato_Extensao.pdf)
-- [Relatório de teste de usabilidade e lições aprendidas](documentacao/Relatorio_Usabilidade.pdf)
-Os três links acima funcionarão depois que os PDFs forem enviados à pasta documentacao com esses nomes.
+
+### Projeto Interdisciplinar III – 2026/2
+
+- [Template do Projeto Interdisciplinar III](documentacao/TEMPLATE%20DE%20PROJETO%20III.pdf)
+- [Relato de experiência da ação de extensão](documentacao/RELATO%20DE%20EXPERI%C3%8ANCIA%20DE%20A%C3%87%C3%83O%20DE%20EXTENS%C3%83O.pdf)
+- [Relatório de teste de usabilidade e lições aprendidas](documentacao/RELAT%C3%93RIO%20DE%20TESTE%20DE%20USABILIDADE%20E%20LI%C3%87%C3%95ES%20APRENDIDAS.docx.pdf)
+
+Os documentos apresentam o desenvolvimento do projeto, as ações de extensão e os resultados dos testes realizados na USF Vila Amélia.
+
+---
+
+# 📊 Fontes dos Dados
+
+Os dados utilizados são provenientes de bases públicas:
+
+- Ministério da Saúde
+- InfoMS
+- IPARDES
+- Dados Abertos do Paraná
+
+---
+
 📊 Fontes dos Dados
 Os dados utilizados são provenientes de bases públicas:
 - Ministério da Saúde
