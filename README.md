@@ -9,7 +9,7 @@ Dashboard Analítico de Cobertura Vacinal da Região Metropolitana de Curitiba
   <img src="imagens/dashboard_cobertura2.png" width="1000">
 
 ---
-O site contém gráficos interativos, filtros por município, vacina e ano, além de uma tabela com os dados.
+O site contém gráficos interativos, filtros por município, vacina e ano, além de uma tabela com os dados. Porém não é ligado ao Power BI.
 file:///C:/Users/katia/Downloads/index%20(1).html
 
 ## Fluxograma do Projeto Power Vacina RMC
