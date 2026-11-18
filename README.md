@@ -1,54 +1,43 @@
 Dashboard Analítico de Cobertura Vacinal da Região Metropolitana de Curitiba
 <p align="center">
-  <img src="imagens/logo_vacinaRMC.png" width="250">
+  <img src="imagens/logo_vacinaRMC.png" width="250" alt="Logo VacinaRMC">
 </p>Dashboard – Página 1
 <p align="center">
-  <img src="imagens/dashboard_cobertura1.png" width="1000">
+  <img src="imagens/dashboard_cobertura1.png" width="1000" alt="Dashboard – Página 1">
 </p>Dashboard – Página 2
 <p align="center">
-  <img src="imagens/dashboard_cobertura2.png" width="1000">
+  <img src="imagens/dashboard_cobertura2.png" width="1000" alt="Dashboard – Página 2">
+</p>O site contém gráficos interativos, filtros por município, vacina e ano, além de uma tabela com os dados. Porém, não é ligado ao Power BI.
 
----
-O site contém gráficos interativos, filtros por município, vacina e ano, além de uma tabela com os dados. Porém não é ligado ao Power BI.
-file:///C:/Users/katia/Downloads/index%20(1).html
-
-## Fluxograma do Projeto Power Vacina RMC
-
+Observação: o site está armazenado localmente no computador de desenvolvimento (file:///C:/Users/katia/Downloads/index%20(1).html) e ainda não possui endereço público para acesso externo.
+Fluxograma do Projeto Power Vacina RMC
 <p align="center">
   <img src="imagens/Fluxo%20do%20Projeto%20Power%20Vacina%20RMC.png" alt="Fluxograma do Projeto Power Vacina RMC" width="1100">
-</p>
-
-O fluxograma apresenta as etapas do projeto, desde a utilização de bases públicas e o tratamento dos dados até a criação do dashboard no Power BI, o teste de usabilidade com sete profissionais da USF Vila Amélia e a divulgação do cartaz educativo sobre poliomielite, com 10 respostas ao formulário.
-
----
-
+</p>O fluxograma apresenta as etapas do projeto, desde a utilização de bases públicas e o tratamento dos dados até a criação do dashboard no Power BI, o teste de usabilidade com sete profissionais da USF Vila Amélia e a divulgação do cartaz educativo sobre poliomielite, com 10 respostas ao formulário.
 <p align="center">
   <img src="imagens/logo_vacinaRMC.png" alt="VacinaRMC" width="650"/>
 </p><h1 align="center">VacinaRMC</h1><p align="center">
-<b>Dashboard Inteligente de Vacinação</b><br>
-Dados que protegem. Informações que transformam.
-</p><p align="center">
-
-
+  <b>Dashboard Inteligente de Vacinação</b><br>
+  Dados que protegem. Informações que transformam.
 </p>📖 Sobre o Projeto
 O VacinaRMC é um Dashboard Inteligente de Vacinação desenvolvido em Power BI, criado como Projeto Interdisciplinar do curso de Gestão da Tecnologia da Informação do Instituto Federal do Paraná (IFPR) – Campus Pinhais.
 
 O dashboard analisa a evolução da cobertura vacinal dos municípios da Região Metropolitana de Curitiba (RMC) utilizando dados públicos do Ministério da Saúde e do IPARDES.
 
-Além da cobertura vacinal, o projeto integra dados sobre a entrada de estrangeiros na região, permitindo análises complementares sobre possíveis fatores relacionados à variação dos índices de vacinação entre os anos de 2019 e 2024.
+Além da cobertura vacinal, o projeto apresenta dados sobre a população estrangeira na região como informação demográfica complementar. Não foi realizada análise que demonstre relação causal entre a presença ou o crescimento da população estrangeira e as variações da cobertura vacinal.
 🎯 Objetivos
 - Monitorar a cobertura vacinal da Região Metropolitana de Curitiba;
 - Comparar indicadores entre municípios;
 - Visualizar a evolução da vacinação ao longo dos anos;
-- Identificar municípios com cobertura crítica;
-- Integrar dados de vacinação e estrangeiros;
+- Identificar municípios com cobertura crítica, conforme critério a ser documentado;
+- Apresentar dados de vacinação e de população estrangeira como informações distintas e complementares;
 - Apoiar gestores e profissionais da saúde na tomada de decisão.
 🚀 Funcionalidades
 📊 Indicadores
 - Cobertura Vacinal Média
 - Maior Cobertura
 - Menor Cobertura
-- Cobertura Crítica
+- Cobertura Crítica (critério de cálculo e classificação pendente de documentação)
 - Classificação da Cobertura
 📈 Visualizações
 - Mapa Interativo da Região Metropolitana de Curitiba
@@ -67,7 +56,7 @@ Além da cobertura vacinal, o projeto integra dados sobre a entrada de estrangei
 - Figma
 - GitHub
 📂 Estrutura do Projeto
-Cobertura_Vacinal
+Cobertura_Vacinal/
 │
 ├── dashboard/
 │   └── Dashboard.pbix
@@ -89,50 +78,43 @@ Cobertura_Vacinal
 │   ├── logo_vacinaRMC.png
 │   ├── dashboard_cobertura1.png
 │   ├── dashboard_cobertura2.png
-│   └── fluxo_power_vacina_rmc.png
+│   └── Fluxo do Projeto Power Vacina RMC.png
 │
 └── README.md
-
-# 📑 Documentação
-
-Toda a documentação do projeto encontra-se na pasta **documentacao**.
-
-### Projeto Interdisciplinar II
-
+📑 Documentação
+Toda a documentação do projeto encontra-se na pasta documentacao.
+Projeto Interdisciplinar II
 - Sprint 1
 - Sprint 2
 - Sprint 3
 - Sprint 4
 - Relatório de Desempenho
 - Projeto Interdisciplinar II
-
-### Projeto Interdisciplinar III – 2026/2
-
+Projeto Interdisciplinar III – 2026/2
 - [Template do Projeto Interdisciplinar III](documentacao/TEMPLATE%20DE%20PROJETO%20III.pdf)
 - [Relato de experiência da ação de extensão](documentacao/RELATO%20DE%20EXPERI%C3%8ANCIA%20DE%20A%C3%87%C3%83O%20DE%20EXTENS%C3%83O.pdf)
 - [Relatório de teste de usabilidade e lições aprendidas](documentacao/RELAT%C3%93RIO%20DE%20TESTE%20DE%20USABILIDADE%20E%20LI%C3%87%C3%95ES%20APRENDIDAS.docx.pdf)
-
 Os documentos apresentam o desenvolvimento do projeto, as ações de extensão e os resultados dos testes realizados na USF Vila Amélia.
-
----
-
-# 📊 Fontes dos Dados
-
-Os dados utilizados são provenientes de bases públicas:
-
-- Ministério da Saúde
-- InfoMS
-- IPARDES
-- Dados Abertos do Paraná
-
----
-
 📊 Fontes dos Dados
 Os dados utilizados são provenientes de bases públicas:
 - Ministério da Saúde
 - InfoMS
 - IPARDES
 - Dados Abertos do Paraná
+Arquivo Excel consultado na verificação da cobertura vacinal: Imunizações_Tabela.xlsx. A identificação completa da base pública de origem, o endereço de acesso e sua metodologia de cálculo ainda precisam ser documentados. A fonte específica da série sobre população estrangeira também precisa ser identificada.
+⚠️ Tratamento e interpretação de coberturas superiores a 100%
+Durante a verificação dos indicadores do dashboard, foi identificado o valor de 385,71%, referente ao município de Piên, à vacina Tríplice Viral, no ano de 2019.
+
+O valor foi localizado na tabela Cobertura Vacinal do Power BI e também na planilha Imunizações_Tabela.xlsx consultada durante a verificação. A medida DAX Maior Cobertura = MAX('Cobertura Vacinal'[Cobertura]) apenas retorna o maior valor da coluna no contexto dos filtros; ela não produz esse percentual por soma.
+
+Coberturas superiores a 100% podem ocorrer quando o número de doses considerado no indicador supera a estimativa da população-alvo. Também podem decorrer de diferenças metodológicas, registros inconsistentes ou outros fatores. Ainda não foi determinada a causa específica do valor de 385,71%, que depende da conferência da metodologia e dos dados da fonte pública original.
+
+Para preservar a transparência e a rastreabilidade dos dados, o projeto adota as seguintes regras de interpretação e tratamento:
+1. Preservar o valor original: os registros são mantidos como recebidos, inclusive quando a cobertura ultrapassa 100%.
+2. Sinalizar valores superiores a 100%: esses registros devem receber aviso de interpretação no dashboard, sem serem automaticamente considerados cobertura literal da população.
+3. Não limitar automaticamente a 100%: não se substituem valores acima de 100% por 100%, pois isso ocultaria possíveis problemas ou particularidades da fonte.
+4. Documentar a origem e a metodologia: registrar o arquivo utilizado, a fonte pública, a data de acesso e os critérios de cálculo, quando confirmados.
+Situação da implementação: a preservação do valor original foi verificada; a sinalização visual dos registros superiores a 100% no dashboard ainda será implementada. O valor de 385,71% não significa que 385,71% da população de Piên tenha sido vacinada.
 📌 Metodologia
 O projeto foi desenvolvido utilizando:
 - Design Thinking
@@ -141,17 +123,35 @@ O projeto foi desenvolvido utilizando:
 - Daily Scrum
 - Sprint Review
 - Sprint Retrospective
-📈 Dashboard
+🔄 Processos do Projeto — BI Vacinas RMC
+O desenvolvimento do dashboard foi organizado em cinco etapas, da obtenção dos dados públicos à avaliação com usuários.
+Etapa	Processo	Descrição
+1	Coleta dos dados	Obtenção de bases públicas de cobertura vacinal, incluindo dados atribuídos ao Ministério da Saúde, IPARDES e Dados Abertos do Paraná.
+2	Tratamento dos dados	Limpeza, padronização e organização dos registros no Power Query, incluindo a estruturação por município, vacina, ano e valor.
+3	Modelagem	Estruturação dos dados no Power BI para relacionar informações e permitir consultas por município, vacina e ano.
+4	Construção do dashboard	Desenvolvimento de gráficos, indicadores e filtros interativos para facilitar a interpretação dos dados.
+5	Validação com usuários	Teste de usabilidade com sete profissionais da USF Vila Amélia, com média de 93,21/100 na escala SUS.
+
+
+Ferramentas: Power BI (visualização e análise), Excel (apoio à organização) e Power Query (tratamento dos dados).
+
+Principais funcionalidades: filtros por município, vacina e ano; indicadores de cobertura; comparação entre municípios da RMC; gráficos interativos.
+
+Resultado: dashboard desenvolvido e avaliado inicialmente com usuários reais. Os resultados do teste não representam uma validação generalizável para todas as unidades de saúde.
+<!-- Para mostrar também a imagem do slide, envie o arquivo processos_bi_vacinas_rmc.png à pasta imagens/ e descomente as linhas abaixo.
+<p align="center">
+  <img src="imagens/processos_bi_vacinas_rmc.png" alt="Infográfico dos processos do BI Vacinas RMC" width="1000">
+</p>
+-->📈 Dashboard
 O dashboard permite:
 - Visualizar a evolução da cobertura vacinal;
 - Comparar indicadores entre municípios;
 - Filtrar por vacina e período;
-- Identificar municípios com cobertura abaixo da meta;
-- Analisar dados relacionados à população estrangeira na RMC.
+- Identificar municípios com cobertura abaixo da meta, conforme os critérios definidos para cada indicador;
+- Consultar dados sobre população estrangeira na RMC como informação demográfica complementar, sem atribuir causalidade à cobertura vacinal.
 🎓 Projeto Acadêmico
 Projeto desenvolvido como requisito da disciplina Projeto Interdisciplinar II, do Curso Superior de Tecnologia em Gestão da Tecnologia da Informação do Instituto Federal do Paraná (IFPR) – Campus Pinhais.
-<!-- ACRÉSCIMO: PROJETO INTERDISCIPLINAR III -->
-🎓 Continuidade no Projeto Interdisciplinar III – 2026/2
+<!-- ACRÉSCIMO: PROJETO INTERDISCIPLINAR III -->🎓 Continuidade no Projeto Interdisciplinar III – 2026/2
 No 6º período de Gestão da Tecnologia da Informação, o Power Vacina RMC teve continuidade com ações de extensão, avaliação da usabilidade do dashboard e elaboração de uma proposta de modelo de negócio. As atividades aproximaram a análise de dados da rotina dos profissionais de saúde e da comunidade de Pinhais.
 🧪 Teste de usabilidade na USF Vila Amélia
 Nos dias 15 e 16 de outubro de 2026, o dashboard foi avaliado por 7 profissionais vinculados à Unidade de Saúde da Família Vila Amélia, em Pinhais/PR. Cada participante realizou quatro tarefas no Power BI, envolvendo consulta de indicadores, seleção de município, seleção da vacina poliomielite e interpretação de informações.
@@ -176,14 +176,45 @@ Faturamento bruto no primeiro ano por secretaria (12 meses)	R$ 14.000,00
 
 
 Importante: esses valores são simulações para o plano de negócio. O projeto ainda não foi comercializado. Custos, licenças, tributos e condições de contratação pública precisariam ser avaliados antes de uma oferta real.
-👩‍💻 Autora
+🏛️ Implantação proposta nas Secretarias de Saúde
+Levantamento das necessidades → Personalização do dashboard → Implantação e acesso → Treinamento dos profissionais → Suporte técnico.
+
+O modelo prevê a adaptação do painel às necessidades de cada secretaria, considerando a infraestrutura disponível e as licenças necessárias. A contratação por órgãos públicos dependerá das regras aplicáveis.
+📊 Simulação financeira apresentada na WIPEX
+Além do cenário de preço hipotético por secretaria descrito acima, o infográfico de viabilidade financeira da apresentação WIPEX utiliza um cenário acadêmico alternativo, com preço de R$ 3.500,00 por implantação. Os dois cenários não devem ser somados nem tratados como preços comerciais já validados.
+Investimento estimado no primeiro ano	Cálculo	Valor
+Desenvolvimento	60 horas × R$ 80,00	R$ 4.800,00
+Licença Power BI Pro (hipótese do slide)	12 meses × R$ 80,20	R$ 962,40
+Suporte técnico	24 horas × R$ 80,00	R$ 1.920,00
+Total estimado		R$ 7.682,40
+
+
+Ano	Implantações hipotéticas	Faturamento bruto projetado
+1º ano	2	R$ 7.000,00
+2º ano	3	R$ 10.500,00
+3º ano	4	R$ 14.000,00
+Total em três anos	9	R$ 31.500,00
+
+
+No primeiro ano, a diferença entre R$ 7.000,00 de faturamento e R$ 7.682,40 de custos estimados seria –R$ 682,40. Com três implantações, o faturamento hipotético de R$ 10.500,00 superaria esse orçamento em R$ 2.817,60, desde que não houvesse custos adicionais por implantação. Isso não constitui cálculo definitivo de lucro ou ponto de equilíbrio econômico, pois ainda faltam custos variáveis, impostos e validação comercial.
+
+Concorrência potencial: consultorias de Business Intelligence, empresas especializadas em tecnologia para o setor público, profissionais autônomos e equipes internas de tecnologia das prefeituras.
+
+Diferenciais propostos: foco na cobertura vacinal da RMC, dashboard já desenvolvido, teste inicial de usabilidade com média SUS de 93,21 pontos e possibilidade de personalização, treinamento e suporte.
+
+Limitações: a demanda, os preços praticados, os custos por implantação e a viabilidade comercial ainda precisam ser validados. O projeto não registra vendas realizadas.
+<!-- Para mostrar também a imagem do slide, envie o arquivo viabilidade_financeira_bi_vacinas_rmc.png à pasta imagens/ e descomente as linhas abaixo.
+<p align="center">
+  <img src="imagens/viabilidade_financeira_bi_vacinas_rmc.png" alt="Infográfico de viabilidade financeira do BI Vacinas RMC" width="1000">
+</p>
+-->👩‍💻 Autora
 Katia Dhaem
 
 Curso Superior de Tecnologia em Gestão da Tecnologia da Informação
 
 Instituto Federal do Paraná – Campus Pinhais
-<p align="center">VacinaRMC
-Dashboard Inteligente de Vacinação
-
-Dados que protegem. Informações que transformam.
+<p align="center">
+  <b>VacinaRMC</b><br>
+  Dashboard Inteligente de Vacinação<br><br>
+  Dados que protegem. Informações que transformam.
 </p>
