@@ -315,7 +315,10 @@ Entretanto, ainda são necessárias avaliações complementares sobre:
 <p align="center">
   <img src="imagens/viabilidade_financeira_bi_vacinas_rmc.png" alt="Infográfico de viabilidade financeira do BI Vacinas RMC" width="1000">
 </p>
--->👩‍💻 Autora
+---
+
+### 👩‍💻 Autora
+
 Katia Dhaem
 
 Curso Superior de Tecnologia em Gestão da Tecnologia da Informação
