@@ -172,17 +172,30 @@ O dashboard permite:
 - Filtrar por vacina e período;
 - Identificar municípios com cobertura abaixo da meta, conforme os critérios definidos para cada indicador;
 - Consultar dados sobre população estrangeira na RMC como informação demográfica complementar, sem atribuir causalidade à cobertura vacinal.
-🎓 Projeto Acadêmico
+## 🎓 Projeto Acadêmico
+
 Projeto desenvolvido como requisito da disciplina Projeto Interdisciplinar II, do Curso Superior de Tecnologia em Gestão da Tecnologia da Informação do Instituto Federal do Paraná (IFPR) – Campus Pinhais.
-<!-- ACRÉSCIMO: PROJETO INTERDISCIPLINAR III -->🎓 Continuidade no Projeto Interdisciplinar III – 2026/2
-No 6º período de Gestão da Tecnologia da Informação, o Power Vacina RMC teve continuidade com ações de extensão, avaliação da usabilidade do dashboard e elaboração de uma proposta de modelo de negócio. As atividades aproximaram a análise de dados da rotina dos profissionais de saúde e da comunidade de Pinhais.
-🧪 Teste de usabilidade na USF Vila Amélia
-Nos dias 15 e 16 de outubro de 2026, o dashboard foi avaliado por 7 profissionais vinculados à Unidade de Saúde da Família Vila Amélia, em Pinhais/PR. Cada participante realizou quatro tarefas no Power BI, envolvendo consulta de indicadores, seleção de município, seleção da vacina poliomielite e interpretação de informações.
-Indicador	Resultado
-Participantes	7 profissionais
-Tarefas propostas	4 por participante
-Tarefas concluídas sem ajuda	28 de 28
-Média do questionário SUS	93,21 pontos em 100
+
+---
+
+## 🎓 Continuidade no Projeto Interdisciplinar III – 2026/2
+
+No 6º período de Gestão da Tecnologia da Informação, o Power Vacina RMC teve continuidade com ações de extensão, avaliação da usabilidade do dashboard e elaboração de uma proposta de modelo de negócio.
+
+As atividades aproximaram a análise de dados da rotina dos profissionais de saúde e da comunidade de Pinhais.
+
+### 🧪 Teste de usabilidade na USF Vila Amélia
+
+Nos dias 15 e 16 de outubro de 2026, o dashboard foi avaliado por 7 profissionais vinculados à Unidade de Saúde da Família Vila Amélia, em Pinhais/PR.
+
+Cada participante realizou quatro tarefas no Power BI, envolvendo consulta de indicadores, seleção de município, seleção da vacina poliomielite e interpretação de informações.
+
+| Indicador | Resultado |
+|---|---|
+| Participantes | 7 profissionais |
+| Tarefas propostas | 4 por participante |
+| Tarefas concluídas sem ajuda | 28 de 28 |
+| Média do questionário SUS | 93,21 pontos em 100 |
 
 
 O resultado foi favorável entre os participantes. Também foram identificadas sugestões para melhorar a visibilidade dos filtros, diferenciar as vacinas nos gráficos e estudar uma organização por faixa etária. Como a avaliação envolveu um grupo pequeno de uma única unidade, seus resultados não representam todos os possíveis usuários.
