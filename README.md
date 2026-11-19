@@ -278,12 +278,39 @@ Com três implantações, o faturamento hipotético de R$ 10.500,00 superaria es
 Isso não constitui cálculo definitivo de lucro ou ponto de equilíbrio econômico, pois ainda faltam custos variáveis, impostos e validação comercial.
 
 ---
+### 🏢 Concorrência potencial
 
-Concorrência potencial: consultorias de Business Intelligence, empresas especializadas em tecnologia para o setor público, profissionais autônomos e equipes internas de tecnologia das prefeituras.
+Os possíveis concorrentes do BI Vacinas RMC incluem:
 
-Diferenciais propostos: foco na cobertura vacinal da RMC, dashboard já desenvolvido, teste inicial de usabilidade com média SUS de 93,21 pontos e possibilidade de personalização, treinamento e suporte.
+- Consultorias especializadas em Business Intelligence (BI);
+- Empresas de tecnologia que prestam serviços ao setor público;
+- Profissionais autônomos que desenvolvem dashboards;
+- Equipes internas de tecnologia das prefeituras.
 
-Limitações: a demanda, os preços praticados, os custos por implantação e a viabilidade comercial ainda precisam ser validados. O projeto não registra vendas realizadas.
+### ✅ Diferenciais do BI Vacinas RMC
+
+O projeto apresenta os seguintes diferenciais:
+
+- Foco na análise da cobertura vacinal da Região Metropolitana de Curitiba;
+- Dashboard já desenvolvido no Power BI;
+- Teste inicial de usabilidade realizado com sete profissionais da USF Vila Amélia;
+- Média de **93,21 pontos na escala SUS**;
+- Possibilidade de personalização para diferentes municípios;
+- Proposta de treinamento e suporte técnico.
+
+### ⚠️ Limitações e perspectivas futuras
+
+O BI Vacinas RMC é um projeto acadêmico que apresenta potencial para aplicação em Secretarias Municipais de Saúde.
+
+Entretanto, ainda são necessárias avaliações complementares sobre:
+
+- Demanda real pelo serviço;
+- Custos de implantação e manutenção;
+- Licenciamento do Power BI;
+- Preços praticados no mercado;
+- Viabilidade comercial e contratação pública.
+
+**O projeto ainda não registra vendas realizadas.** As projeções financeiras apresentadas são simulações acadêmicas e não representam resultados comerciais efetivos.
 <!-- Para mostrar também a imagem do slide, envie o arquivo viabilidade_financeira_bi_vacinas_rmc.png à pasta imagens/ e descomente as linhas abaixo.
 <p align="center">
   <img src="imagens/viabilidade_financeira_bi_vacinas_rmc.png" alt="Infográfico de viabilidade financeira do BI Vacinas RMC" width="1000">
