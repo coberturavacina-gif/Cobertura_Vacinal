@@ -157,6 +157,15 @@ Resultado: dashboard desenvolvido e avaliado inicialmente com usuários reais. O
   <img src="imagens/processos_bi_vacinas_rmc.png" alt="Infográfico dos processos do BI Vacinas RMC" width="1000">
 </p>
 -->📈 Dashboard
+### 📥 Arquivo do Dashboard Power BI
+
+O arquivo do projeto está disponível para consulta e download no repositório.
+
+**[Baixar o Dashboard BI Vacinas RMC (.pbix)](dashboard/BI_Vacinas_RMC_Atualizado.pbix)**
+
+Para visualizar os gráficos, indicadores, mapas e filtros interativos, é necessário abrir o arquivo no Power BI Desktop.
+
+**Observação:** o arquivo disponibilizado corresponde ao projeto desenvolvido no Power BI. O GitHub armazena o arquivo, mas não executa o dashboard diretamente no navegador.
 O dashboard permite:
 - Visualizar a evolução da cobertura vacinal;
 - Comparar indicadores entre municípios;
