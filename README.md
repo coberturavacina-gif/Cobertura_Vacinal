@@ -227,28 +227,57 @@ Como exercício acadêmico, foi elaborada uma possibilidade futura de prestaçã
 | Faturamento bruto no primeiro ano por secretaria (12 meses) | R$ 14.000,00 |
 
 
-Importante: esses valores são simulações para o plano de negócio. O projeto ainda não foi comercializado. Custos, licenças, tributos e condições de contratação pública precisariam ser avaliados antes de uma oferta real.
-🏛️ Implantação proposta nas Secretarias de Saúde
-Levantamento das necessidades → Personalização do dashboard → Implantação e acesso → Treinamento dos profissionais → Suporte técnico.
+**Importante:** esses valores são simulações para o plano de negócio. O projeto ainda não foi comercializado. Custos, licenças, tributos e condições de contratação pública precisariam ser avaliados antes de uma oferta real.
+
+---
+
+### 🏛️ Implantação proposta nas Secretarias de Saúde
+
+A implantação do BI Vacinas RMC seguiria as seguintes etapas:
+
+1. Levantamento das necessidades da secretaria;
+2. Personalização do dashboard;
+3. Implantação e disponibilização do acesso;
+4. Treinamento dos profissionais;
+5. Suporte técnico.
 
 O modelo prevê a adaptação do painel às necessidades de cada secretaria, considerando a infraestrutura disponível e as licenças necessárias. A contratação por órgãos públicos dependerá das regras aplicáveis.
-📊 Simulação financeira apresentada na WIPEX
-Além do cenário de preço hipotético por secretaria descrito acima, o infográfico de viabilidade financeira da apresentação WIPEX utiliza um cenário acadêmico alternativo, com preço de R$ 3.500,00 por implantação. Os dois cenários não devem ser somados nem tratados como preços comerciais já validados.
-Investimento estimado no primeiro ano	Cálculo	Valor
-Desenvolvimento	60 horas × R$ 80,00	R$ 4.800,00
-Licença Power BI Pro (hipótese do slide)	12 meses × R$ 80,20	R$ 962,40
-Suporte técnico	24 horas × R$ 80,00	R$ 1.920,00
-Total estimado		R$ 7.682,40
 
+---
 
-Ano	Implantações hipotéticas	Faturamento bruto projetado
-1º ano	2	R$ 7.000,00
-2º ano	3	R$ 10.500,00
-3º ano	4	R$ 14.000,00
-Total em três anos	9	R$ 31.500,00
+### 📊 Simulação financeira apresentada na WIPEX
 
+Além do cenário hipotético de R$ 8.000,00 por implantação e R$ 500,00 mensais de manutenção, o infográfico de viabilidade financeira da apresentação WIPEX utiliza um cenário acadêmico alternativo, com preço de **R$ 3.500,00 por implantação**.
 
-No primeiro ano, a diferença entre R$ 7.000,00 de faturamento e R$ 7.682,40 de custos estimados seria –R$ 682,40. Com três implantações, o faturamento hipotético de R$ 10.500,00 superaria esse orçamento em R$ 2.817,60, desde que não houvesse custos adicionais por implantação. Isso não constitui cálculo definitivo de lucro ou ponto de equilíbrio econômico, pois ainda faltam custos variáveis, impostos e validação comercial.
+Os dois cenários não devem ser somados nem tratados como preços comerciais já validados.
+
+#### Investimento estimado no primeiro ano
+
+| Descrição | Cálculo | Valor |
+|---|---|---|
+| Desenvolvimento | 60 horas × R$ 80,00 | R$ 4.800,00 |
+| Licença Power BI Pro (hipótese do slide) | 12 meses × R$ 80,20 | R$ 962,40 |
+| Suporte técnico | 24 horas × R$ 80,00 | R$ 1.920,00 |
+| **Total estimado** | | **R$ 7.682,40** |
+
+#### Projeção hipotética de faturamento
+
+| Ano | Implantações hipotéticas | Faturamento bruto projetado |
+|---|---|---|
+| 1º ano | 2 | R$ 7.000,00 |
+| 2º ano | 3 | R$ 10.500,00 |
+| 3º ano | 4 | R$ 14.000,00 |
+| **Total em três anos** | **9** | **R$ 31.500,00** |
+
+#### Resultado financeiro estimado
+
+No primeiro ano, a diferença entre R$ 7.000,00 de faturamento e R$ 7.682,40 de custos estimados seria de **–R$ 682,40**.
+
+Com três implantações, o faturamento hipotético de R$ 10.500,00 superaria esse orçamento em R$ 2.817,60, desde que não houvesse custos adicionais por implantação.
+
+Isso não constitui cálculo definitivo de lucro ou ponto de equilíbrio econômico, pois ainda faltam custos variáveis, impostos e validação comercial.
+
+---
 
 Concorrência potencial: consultorias de Business Intelligence, empresas especializadas em tecnologia para o setor público, profissionais autônomos e equipes internas de tecnologia das prefeituras.
 
