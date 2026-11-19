@@ -198,17 +198,33 @@ Cada participante realizou quatro tarefas no Power BI, envolvendo consulta de in
 | Média do questionário SUS | 93,21 pontos em 100 |
 
 
-O resultado foi favorável entre os participantes. Também foram identificadas sugestões para melhorar a visibilidade dos filtros, diferenciar as vacinas nos gráficos e estudar uma organização por faixa etária. Como a avaliação envolveu um grupo pequeno de uma única unidade, seus resultados não representam todos os possíveis usuários.
-📢 Ação de extensão: cartaz educativo sobre poliomielite
-Foi elaborado um cartaz com dados de cobertura vacinal contra a poliomielite entre 2019 e 2024, referentes a Adrianópolis, Colombo, Curitiba e Pinhais. O material foi exposto na USF Vila Amélia e divulgado pelo Status do WhatsApp. Um QR Code direcionou os interessados a um formulário de avaliação.
+O resultado foi favorável entre os participantes. Também foram identificadas sugestões para melhorar a visibilidade dos filtros, diferenciar as vacinas nos gráficos e estudar uma organização por faixa etária.
 
-O formulário recebeu 10 respostas. Nas três perguntas sobre facilidade de compreensão, contribuição para entender os dados e importância da divulgação, todas as respostas foram “Sim”. Esses resultados registram a percepção dos respondentes, mas não comprovam aprendizagem nem representam toda a comunidade.
-💼 Proposta de modelo de negócio
+Como a avaliação envolveu um grupo pequeno de uma única unidade, seus resultados não representam todos os possíveis usuários.
+
+---
+
+### 📢 Ação de extensão: cartaz educativo sobre poliomielite
+
+Foi elaborado um cartaz com dados de cobertura vacinal contra a poliomielite entre 2019 e 2024, referentes a Adrianópolis, Colombo, Curitiba e Pinhais.
+
+O material foi exposto na USF Vila Amélia e divulgado pelo Status do WhatsApp. Um QR Code direcionou os interessados a um formulário de avaliação.
+
+O formulário recebeu **10 respostas**. Nas três perguntas sobre facilidade de compreensão, contribuição para entender os dados e importância da divulgação, todas as respostas foram **“Sim”**.
+
+Esses resultados registram a percepção dos respondentes, mas não comprovam aprendizagem nem representam toda a comunidade.
+
+---
+
+### 💼 Proposta de modelo de negócio
+
 Como exercício acadêmico, foi elaborada uma possibilidade futura de prestação de serviços para Secretarias Municipais de Saúde da RMC, com implantação e personalização do dashboard, treinamento e manutenção.
-Serviço	Valor hipotético
-Implantação e personalização por secretaria	R$ 8.000,00
-Manutenção e suporte mensal	R$ 500,00
-Faturamento bruto no primeiro ano por secretaria (12 meses)	R$ 14.000,00
+
+| Serviço | Valor hipotético |
+|---|---|
+| Implantação e personalização por secretaria | R$ 8.000,00 |
+| Manutenção e suporte mensal | R$ 500,00 |
+| Faturamento bruto no primeiro ano por secretaria (12 meses) | R$ 14.000,00 |
 
 
 Importante: esses valores são simulações para o plano de negócio. O projeto ainda não foi comercializado. Custos, licenças, tributos e condições de contratação pública precisariam ser avaliados antes de uma oferta real.
