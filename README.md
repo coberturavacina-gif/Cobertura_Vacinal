@@ -81,20 +81,28 @@ Cobertura_Vacinal/
 │   └── Fluxo do Projeto Power Vacina RMC.png
 │
 └── README.md
-📑 Documentação
-Toda a documentação do projeto encontra-se na pasta documentacao.
-Projeto Interdisciplinar II
+
+## 📑 Documentação
+
+Toda a documentação do projeto encontra-se na pasta `documentacao`.
+
+### Projeto Interdisciplinar II
+
 - Sprint 1
 - Sprint 2
 - Sprint 3
 - Sprint 4
 - Relatório de Desempenho
 - Projeto Interdisciplinar II
-Projeto Interdisciplinar III – 2026/2
+
+### Projeto Interdisciplinar III – 2026/2
+
 - [Template do Projeto Interdisciplinar III](documentacao/TEMPLATE%20DE%20PROJETO%20III.pdf)
 - [Relato de experiência da ação de extensão](documentacao/RELATO%20DE%20EXPERI%C3%8ANCIA%20DE%20A%C3%87%C3%83O%20DE%20EXTENS%C3%83O.pdf)
 - [Relatório de teste de usabilidade e lições aprendidas](documentacao/RELAT%C3%93RIO%20DE%20TESTE%20DE%20USABILIDADE%20E%20LI%C3%87%C3%95ES%20APRENDIDAS.docx.pdf)
+
 Os documentos apresentam o desenvolvimento do projeto, as ações de extensão e os resultados dos testes realizados na USF Vila Amélia.
+
 📊 Fontes dos Dados
 Os dados utilizados são provenientes de bases públicas:
 - Ministério da Saúde
