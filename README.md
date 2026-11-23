@@ -215,20 +215,6 @@ O limite de 80% é um **critério analítico adotado no projeto**, e não uma me
 
 As metas e os parâmetros de avaliação podem variar conforme a vacina e o público-alvo.
 
-📉 Critério do indicador "Média Abaixo de 80%"
-O cartão anteriormente identificado como Cobertura Crítica foi renomeado, apenas na apresentação do visual, para Média Abaixo de 80%, de modo a explicitar o que a medida calcula. O nome interno da medida DAX permanece Cobertura Crítica.
-Cobertura Crítica =
-CALCULATE(
-    AVERAGE('Cobertura Vacinal'[Cobertura]),
-    'Cobertura Vacinal'[Cobertura] < 80
-)
-A medida calcula a média aritmética dos registros de cobertura inferiores a 80%, no contexto dos filtros aplicados. No relatório examinado, o cartão apresentou 47,06%. Esse número não é o percentual de municípios com cobertura crítica e tampouco representa uma meta oficial.
-
-O limite de 80% é um critério analítico adotado no projeto, e não uma meta universal do Ministério da Saúde: metas e parâmetros de avaliação podem variar conforme a vacina e o público-alvo. A medida também não pondera os registros pelo tamanho da população de cada município.
-🌎 Interpretação dos dados sobre população estrangeira
-O dashboard apresenta, para fins descritivos, a evolução da cobertura vacinal e a série de população estrangeira na Região Metropolitana de Curitiba. A presença das duas séries em um mesmo gráfico permite observar tendências temporais, mas não comprova associação estatística nem relação de causa e efeito.
-
-Por isso, o texto explicativo do painel foi atualizado para não atribuir as mudanças de cobertura vacinal ao aumento da população estrangeira. Qualquer conclusão sobre fatores associados à cobertura exigiria análise específica, fontes compatíveis e avaliação de possíveis fatores de confusão.
 
 ## 📌 Metodologia
 
