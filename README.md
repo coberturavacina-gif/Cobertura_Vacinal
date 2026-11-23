@@ -123,9 +123,13 @@ Foram utilizados dados de cobertura vacinal organizados por município, vacina e
 
 Durante a verificação dos indicadores, também foi consultada a planilha `Imunizações_Tabela.xlsx`.
 
-**Dados migratórios — SISMIGRA**
+### 🌎 Dados migratórios — SISMIGRA
 
-Para a análise demográfica complementar, foram utilizados arquivos CSV da série SISMIGRA, abrangendo o período de 2019 a 2024:
+Os dados migratórios utilizados no projeto foram obtidos do **Sistema de Registro Nacional Migratório (SISMIGRA)**, disponibilizado pelo Ministério da Justiça e Segurança Pública, por meio do portal de microdados do Observatório das Migrações Internacionais (OBMigra).
+
+A base é constituída por registros administrativos da Polícia Federal referentes a pessoas não nacionais com autorização de residência regular no Brasil.
+
+Foram utilizados arquivos CSV referentes ao período de 2019 a 2024:
 
 - `sismigra_2019_2020.csv`
 - `sismigra_2021.csv`
@@ -133,11 +137,15 @@ Para a análise demográfica complementar, foram utilizados arquivos CSV da sér
 - `sismigra_2023.csv`
 - `sismigra_2024.csv`
 
-Esses arquivos contêm informações sobre registros migratórios, incluindo ano de registro, município e unidade federativa de residência, país de nascimento e nacionalidade.
+Os dados foram utilizados como informação demográfica complementar à análise da cobertura vacinal na Região Metropolitana de Curitiba.
 
-Os dados migratórios foram considerados como informações complementares à análise da cobertura vacinal da Região Metropolitana de Curitiba.
+**Observação metodológica:** os registros do SISMIGRA não representam necessariamente o total de estrangeiros residentes em cada município. A comparação com a cobertura vacinal tem caráter descritivo e não demonstra relação de causa e efeito.
 
-A comparação entre os indicadores é descritiva e não permite concluir que a presença de estrangeiros tenha provocado alterações na cobertura vacinal.
+**Fonte:** Polícia Federal / Ministério da Justiça e Segurança Pública — OBMigra.
+
+**Disponível em:** https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/obmigra-1/microdados/sismigra/SISMIGRA
+
+**Acesso em:** 23 nov. 2026.
 
 ⚠️ Tratamento e interpretação de coberturas superiores a 100%
 Durante a verificação dos indicadores do dashboard, foi identificado o valor de 385,71%, referente ao município de Piên, à vacina Tríplice Viral, no ano de 2019.
