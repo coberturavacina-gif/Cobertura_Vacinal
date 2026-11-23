@@ -1,4 +1,10 @@
-Dashboard Analítico de Cobertura Vacinal da Região Metropolitana de Curitiba
+
+# 💉 BI Vacinas RMC
+
+**Dashboard Analítico de Cobertura Vacinal da Região Metropolitana de Curitiba**
+
+Projeto acadêmico desenvolvido no Curso Superior de Tecnologia em Gestão da Tecnologia da Informação (GTI), do Instituto Federal do Paraná (IFPR) – Campus Pinhais.
+
 <p align="center">
   <img src="imagens/logo_vacinaRMC.png" width="250" alt="Logo VacinaRMC">
 </p>Dashboard – Página 1
