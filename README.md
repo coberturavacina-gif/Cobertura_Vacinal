@@ -140,29 +140,49 @@ O limite de 80% é um critério analítico adotado no projeto, e não uma meta u
 O dashboard apresenta, para fins descritivos, a evolução da cobertura vacinal e a série de população estrangeira na Região Metropolitana de Curitiba. A presença das duas séries em um mesmo gráfico permite observar tendências temporais, mas não comprova associação estatística nem relação de causa e efeito.
 
 Por isso, o texto explicativo do painel foi atualizado para não atribuir as mudanças de cobertura vacinal ao aumento da população estrangeira. Qualquer conclusão sobre fatores associados à cobertura exigiria análise específica, fontes compatíveis e avaliação de possíveis fatores de confusão.
-📌 Metodologia
+
+## 📌 Metodologia
+
 O projeto foi desenvolvido utilizando:
+
 - Design Thinking
 - Scrum
 - Product Backlog
 - Daily Scrum
 - Sprint Review
 - Sprint Retrospective
-🔄 Processos do Projeto — BI Vacinas RMC
-O desenvolvimento do dashboard foi organizado em cinco etapas, da obtenção dos dados públicos à avaliação com usuários.
-Etapa	Processo	Descrição
-1	Coleta dos dados	Obtenção de bases públicas de cobertura vacinal, incluindo dados atribuídos ao Ministério da Saúde, IPARDES e Dados Abertos do Paraná.
-2	Tratamento dos dados	Limpeza, padronização e organização dos registros no Power Query, incluindo a estruturação por município, vacina, ano e valor.
-3	Modelagem	Estruturação dos dados no Power BI para relacionar informações e permitir consultas por município, vacina e ano.
-4	Construção do dashboard	Desenvolvimento de gráficos, indicadores e filtros interativos para facilitar a interpretação dos dados.
-5	Validação com usuários	Teste de usabilidade com sete profissionais da USF Vila Amélia, com média de 93,21/100 na escala SUS.
 
+## 🔄 Processos do Projeto — BI Vacinas RMC
 
-Ferramentas: Power BI (visualização e análise), Excel (apoio à organização) e Power Query (tratamento dos dados).
+O desenvolvimento do dashboard foi organizado em cinco etapas, desde a obtenção dos dados públicos até a avaliação com usuários.
 
-Principais funcionalidades: filtros por município, vacina e ano; indicadores de cobertura; comparação entre municípios da RMC; gráficos interativos.
+| Etapa | Processo | Descrição |
+|---|---|---|
+| 1 | Coleta dos dados | Obtenção de bases públicas de cobertura vacinal, incluindo dados atribuídos ao Ministério da Saúde, IPARDES e Dados Abertos do Paraná. |
+| 2 | Tratamento dos dados | Limpeza, padronização e organização dos registros no Power Query, incluindo a estruturação por município, vacina, ano e valor. |
+| 3 | Modelagem | Estruturação dos dados no Power BI para relacionar informações e permitir consultas por município, vacina e ano. |
+| 4 | Construção do dashboard | Desenvolvimento de gráficos, indicadores e filtros interativos para facilitar a interpretação dos dados. |
+| 5 | Validação com usuários | Teste de usabilidade com sete profissionais da USF Vila Amélia, com média de 93,21/100 na escala SUS. |
 
-Resultado: dashboard desenvolvido e avaliado inicialmente com usuários reais. Os resultados do teste não representam uma validação generalizável para todas as unidades de saúde.
+### 🛠️ Ferramentas utilizadas
+
+- **Power BI:** visualização e análise dos dados.
+- **Excel:** apoio à organização dos dados.
+- **Power Query:** tratamento e transformação dos dados.
+
+### 📊 Principais funcionalidades
+
+- Filtros por município, vacina e ano;
+- Indicadores de cobertura vacinal;
+- Comparação entre municípios da Região Metropolitana de Curitiba;
+- Gráficos interativos.
+
+### ✅ Resultado
+
+Dashboard desenvolvido e avaliado inicialmente com usuários reais.
+
+Os resultados do teste representam uma avaliação inicial de usabilidade e não constituem validação generalizável para todas as unidades de saúde.
+
 <!-- Para mostrar também a imagem do slide, envie o arquivo processos_bi_vacinas_rmc.png à pasta imagens/ e descomente as linhas abaixo.
 <p align="center">
   <img src="imagens/processos_bi_vacinas_rmc.png" alt="Infográfico dos processos do BI Vacinas RMC" width="1000">
