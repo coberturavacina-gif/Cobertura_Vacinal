@@ -145,7 +145,6 @@ Os dados foram utilizados como informação demográfica complementar à anális
 
 **Disponível em:** https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/obmigra-1/microdados/sismigra/SISMIGRA
 
-**Acesso em:** 23 nov. 2026.
 
 ⚠️ Tratamento e interpretação de coberturas superiores a 100%
 Durante a verificação dos indicadores do dashboard, foi identificado o valor de 385,71%, referente ao município de Piên, à vacina Tríplice Viral, no ano de 2019.
