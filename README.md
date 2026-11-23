@@ -146,19 +146,75 @@ Os dados foram utilizados como informação demográfica complementar à anális
 **Disponível em:** https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/obmigra-1/microdados/sismigra/SISMIGRA
 
 
-⚠️ Tratamento e interpretação de coberturas superiores a 100%
-Durante a verificação dos indicadores do dashboard, foi identificado o valor de 385,71%, referente ao município de Piên, à vacina Tríplice Viral, no ano de 2019.
 
-O valor foi localizado na tabela Cobertura Vacinal do Power BI e também na planilha Imunizações_Tabela.xlsx consultada durante a verificação. A medida DAX Maior Cobertura = MAX('Cobertura Vacinal'[Cobertura]) apenas retorna o maior valor da coluna no contexto dos filtros; ela não produz esse percentual por soma.
+## ⚠️ Tratamento e interpretação de coberturas superiores a 100%
 
-Coberturas superiores a 100% podem ocorrer quando o número de doses considerado no indicador supera a estimativa da população-alvo. Também podem decorrer de diferenças metodológicas, registros inconsistentes ou outros fatores. Ainda não foi determinada a causa específica do valor de 385,71%, que depende da conferência da metodologia e dos dados da fonte pública original.
+Durante a verificação dos indicadores do dashboard, foi identificado o valor de **385,71%**, referente ao município de **Piên**, à vacina **Tríplice Viral**, no ano de **2019**.
 
-Para preservar a transparência e a rastreabilidade dos dados, o projeto adota as seguintes regras de interpretação e tratamento:
-1. Preservar o valor original: os registros são mantidos como recebidos, inclusive quando a cobertura ultrapassa 100%.
-2. Sinalizar valores superiores a 100%: esses registros devem receber aviso de interpretação no dashboard, sem serem automaticamente considerados cobertura literal da população.
-3. Não limitar automaticamente a 100%: não se substituem valores acima de 100% por 100%, pois isso ocultaria possíveis problemas ou particularidades da fonte.
-4. Documentar a origem e a metodologia: registrar o arquivo utilizado, a fonte pública, a data de acesso e os critérios de cálculo, quando confirmados.
-Situação da implementação: a preservação do valor original foi verificada; a sinalização visual dos registros superiores a 100% no dashboard ainda será implementada. O valor de 385,71% não significa que 385,71% da população de Piên tenha sido vacinada.
+O valor foi localizado na tabela `Cobertura Vacinal` do Power BI e também na planilha `Imunizações_Tabela.xlsx`, consultada durante a verificação.
+
+A medida DAX utilizada é:
+
+```DAX
+Maior Cobertura = MAX('Cobertura Vacinal'[Cobertura])
+```
+
+Essa medida retorna o maior valor da coluna no contexto dos filtros aplicados. Portanto, o percentual de 385,71% não foi produzido pela soma dos registros.
+
+### Possíveis explicações
+
+Coberturas superiores a 100% podem ocorrer quando o número de doses considerado no indicador supera a estimativa da população-alvo.
+
+Também podem decorrer de diferenças metodológicas, inconsistências nos registros ou outros fatores.
+
+**A causa específica do valor de 385,71% ainda não foi determinada**, sendo necessária a conferência da metodologia e dos dados da fonte pública original.
+
+### Critérios de interpretação e tratamento
+
+Para preservar a transparência e a rastreabilidade dos dados, o projeto adota os seguintes critérios:
+
+1. **Preservar o valor original:** manter os registros conforme recebidos, inclusive quando a cobertura ultrapassa 100%.
+
+2. **Sinalizar valores superiores a 100%:** esses registros devem receber um aviso de interpretação no dashboard.
+
+3. **Não limitar automaticamente a 100%:** substituir valores superiores a 100% por 100% poderia ocultar problemas ou particularidades da fonte.
+
+4. **Documentar a origem e a metodologia:** registrar os arquivos utilizados, as fontes públicas, as datas de acesso e os critérios de cálculo, quando confirmados.
+
+**Situação da implementação:** a preservação do valor original foi verificada. A sinalização visual dos registros superiores a 100% ainda será implementada.
+
+**Importante:** o valor de 385,71% não significa que 385,71% da população de Piên tenha sido vacinada.
+
+---
+
+## 📉 Critério do indicador "Média Abaixo de 80%"
+
+O cartão anteriormente identificado como **Cobertura Crítica** foi renomeado, apenas na apresentação do visual, para **Média Abaixo de 80%**, de modo a explicitar o que a medida calcula.
+
+O nome interno da medida DAX permanece `Cobertura Crítica`.
+
+```DAX
+Cobertura Crítica =
+CALCULATE(
+    AVERAGE('Cobertura Vacinal'[Cobertura]),
+    'Cobertura Vacinal'[Cobertura] < 80
+)
+```
+
+A medida calcula a média aritmética dos registros de cobertura inferiores a 80%, considerando o contexto dos filtros aplicados.
+
+No relatório examinado, o cartão apresentou **47,06%**.
+
+Esse número:
+
+- Não representa o percentual de municípios com cobertura crítica;
+- Não corresponde a uma meta oficial;
+- Não é ponderado pelo tamanho da população de cada município.
+
+O limite de 80% é um **critério analítico adotado no projeto**, e não uma meta universal do Ministério da Saúde.
+
+As metas e os parâmetros de avaliação podem variar conforme a vacina e o público-alvo.
+
 📉 Critério do indicador "Média Abaixo de 80%"
 O cartão anteriormente identificado como Cobertura Crítica foi renomeado, apenas na apresentação do visual, para Média Abaixo de 80%, de modo a explicitar o que a medida calcula. O nome interno da medida DAX permanece Cobertura Crítica.
 Cobertura Crítica =
