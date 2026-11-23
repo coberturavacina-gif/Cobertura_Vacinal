@@ -2,15 +2,18 @@ Dashboard Analítico de Cobertura Vacinal da Região Metropolitana de Curitiba
 <p align="center">
   <img src="imagens/logo_vacinaRMC.png" width="250" alt="Logo VacinaRMC">
 </p>Dashboard – Página 1
-<p align="center">****
+<p align="center">
   <img src="imagens/dashboard_cobertura1.png" width="1000" alt="Dashboard – Página 1">
 </p>Dashboard – Página 2
 <p align="center">
   <img src="imagens/dashboard_cobertura2.png" width="1000" alt="Dashboard – Página 2">
 </p>O site contém gráficos interativos, filtros por município, vacina e ano, além de uma tabela com os dados. Porém, não é ligado ao Power BI.
 
-Observação: o site está armazenado localmente no computador de desenvolvimento (file:///C:/Users/katia/Downloads/index%20(1).html) e ainda não possui endereço público para acesso externo.
-Fluxograma do Projeto Power Vacina RMC
+
+**Observação sobre a versão web:** existe uma versão demonstrativa local com gráficos e filtros interativos. Ela não está conectada diretamente ao Power BI e ainda não possui endereço público para acesso externo.
+
+## 🔄 Fluxograma do Projeto Power Vacina RMC
+
 <p align="center">
   <img src="imagens/Fluxo%20do%20Projeto%20Power%20Vacina%20RMC.png" alt="Fluxograma do Projeto Power Vacina RMC" width="1100">
 </p>O fluxograma apresenta as etapas do projeto, desde a utilização de bases públicas e o tratamento dos dados até a criação do dashboard no Power BI, o teste de usabilidade com sete profissionais da USF Vila Amélia e a divulgação do cartaz educativo sobre poliomielite, com 10 respostas ao formulário.
