@@ -56,31 +56,25 @@ Além da cobertura vacinal, o projeto apresenta dados sobre a população estran
 - Figma
 - GitHub
 📂 Estrutura do Projeto
+
+```text
 Cobertura_Vacinal/
-│
 ├── dashboard/
-│   └── Dashboard.pbix
-│
-├── dados/
-│
+│   ├── BI_Vacinas_RMC_Atualizado.pbix
+│   └── README.md
 ├── documentacao/
-│   ├── Projeto_Interdisciplinar_II.pdf
-│   ├── gestao_monitoramento_sprint1.md
-│   ├── gestao_monitoramento_sprint2.md
-│   ├── gestao_monitoramento_sprint3.md
-│   ├── gestao_monitoramento_sprint4.md
-│   ├── Relatorio_Desempenho_Sprint4.md
-│   ├── Template_Projeto_III.pdf             (enviar)
-│   ├── Relato_Extensao.pdf                  (enviar)
-│   └── Relatorio_Usabilidade.pdf            (enviar)
-│
+│   ├── Documentos do Projeto Interdisciplinar II
+│   ├── Documentos do Projeto Interdisciplinar III
+│   └── Arquivos de acompanhamento das sprints
 ├── imagens/
 │   ├── logo_vacinaRMC.png
 │   ├── dashboard_cobertura1.png
 │   ├── dashboard_cobertura2.png
 │   └── Fluxo do Projeto Power Vacina RMC.png
-│
+├── Artigo_Tecnico_Final.pdf
 └── README.md
+```
+
 
 ## 📑 Documentação
 
