@@ -311,10 +311,6 @@ Entretanto, ainda são necessárias avaliações complementares sobre:
 - Viabilidade comercial e contratação pública.
 
 **O projeto ainda não registra vendas realizadas.** As projeções financeiras apresentadas são simulações acadêmicas e não representam resultados comerciais efetivos.
-<!-- Para mostrar também a imagem do slide, envie o arquivo viabilidade_financeira_bi_vacinas_rmc.png à pasta imagens/ e descomente as linhas abaixo.
-<p align="center">
-  <img src="imagens/viabilidade_financeira_bi_vacinas_rmc.png" alt="Infográfico de viabilidade financeira do BI Vacinas RMC" width="1000">
-</p>
 ---
 
 ### 👩‍💻 Autora
@@ -324,6 +320,7 @@ Katia Dhaem
 Curso Superior de Tecnologia em Gestão da Tecnologia da Informação
 
 Instituto Federal do Paraná – Campus Pinhais
+
 <p align="center">
   <b>VacinaRMC</b><br>
   Dashboard Inteligente de Vacinação<br><br>
