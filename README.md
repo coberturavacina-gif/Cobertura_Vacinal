@@ -216,6 +216,24 @@ O limite de 80% é um **critério analítico adotado no projeto**, e não uma me
 As metas e os parâmetros de avaliação podem variar conforme a vacina e o público-alvo.
 
 
+---
+
+## 🌎 Interpretação dos dados sobre população estrangeira
+
+O dashboard apresenta, para fins descritivos, a evolução da cobertura vacinal e dos registros migratórios na Região Metropolitana de Curitiba (RMC), entre 2019 e 2024.
+
+Os dados migratórios são provenientes do Sistema de Registro Nacional Migratório (SISMIGRA), disponibilizado pelo Ministério da Justiça e Segurança Pública, por meio do portal OBMigra, tendo como fonte original a Polícia Federal.
+
+A apresentação das duas séries em um mesmo gráfico permite observar tendências temporais, mas não comprova associação estatística nem relação de causa e efeito.
+
+Os registros migratórios não representam necessariamente o total de estrangeiros residentes em cada município.
+
+**Importante:** o projeto não atribui as alterações da cobertura vacinal ao aumento da população estrangeira.
+
+A comparação possui caráter exclusivamente descritivo e complementar, contribuindo para a contextualização dos indicadores de saúde pública da RMC.
+
+---
+
 ## 📌 Metodologia
 
 O projeto foi desenvolvido utilizando:
