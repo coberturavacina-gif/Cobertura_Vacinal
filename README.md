@@ -276,13 +276,10 @@ Dashboard desenvolvido e avaliado inicialmente com usuários reais.
 
 Os resultados do teste representam uma avaliação inicial de usabilidade e não constituem validação generalizável para todas as unidades de saúde.
 
-<!-- Para mostrar também a imagem do slide, envie o arquivo processos_bi_vacinas_rmc.png à pasta imagens/ e descomente as linhas abaixo.
-<p align="center">
-  <img src="imagens/processos_bi_vacinas_rmc.png" alt="Infográfico dos processos do BI Vacinas RMC" width="1000">
-</p>
 ---
 
 ## 📈 Dashboard
+
 ### 📥 Arquivo do Dashboard Power BI
 
 O arquivo do projeto está disponível para consulta e download no repositório.
@@ -290,6 +287,7 @@ O arquivo do projeto está disponível para consulta e download no repositório.
 **[Baixar o Dashboard BI Vacinas RMC (.pbix)](dashboard/BI_Vacinas_RMC_Atualizado.pbix)**
 
 Para visualizar os gráficos, indicadores, mapas e filtros interativos, é necessário abrir o arquivo no Power BI Desktop.
+---
 
 **Observação:** o arquivo disponibilizado corresponde ao projeto desenvolvido no Power BI. O GitHub armazena o arquivo, mas não executa o dashboard diretamente no navegador.
 O dashboard permite:
