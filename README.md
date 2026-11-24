@@ -280,7 +280,9 @@ Os resultados do teste representam uma avaliação inicial de usabilidade e não
 <p align="center">
   <img src="imagens/processos_bi_vacinas_rmc.png" alt="Infográfico dos processos do BI Vacinas RMC" width="1000">
 </p>
--->📈 Dashboard
+---
+
+## 📈 Dashboard
 ### 📥 Arquivo do Dashboard Power BI
 
 O arquivo do projeto está disponível para consulta e download no repositório.
