@@ -85,26 +85,47 @@ Cobertura_Vacinal/
 ```
 
 
+
+---
+
 ## 📑 Documentação
 
-Toda a documentação do projeto encontra-se na pasta `documentacao`.
+Toda a documentação do projeto BI Vacinas RMC encontra-se na pasta [documentacao](documentacao).
 
-### Projeto Interdisciplinar II
+Os documentos registram a trajetória do projeto desde a ideação, o planejamento e o desenvolvimento até os testes de usabilidade, as ações de extensão e a entrega final.
 
-- Sprint 1
-- Sprint 2
-- Sprint 3
-- Sprint 4
-- Relatório de Desempenho
-- Projeto Interdisciplinar II
+### 💡 Projeto Interdisciplinar II — 2026/1
 
-### Projeto Interdisciplinar III – 2026/2
+#### Gestão e Monitoramento do Projeto
+
+- [Sprint 1 — Ideação e planejamento](documentacao/gestao_monitoramento_sprint1.md)
+- [Sprint 2 — Pesquisa e levantamento de requisitos](documentacao/gestao_monitoramento_sprint2.md)
+- [Sprint 3 — Prototipação e desenvolvimento](documentacao/gestao_monitoramento_sprint3.md)
+- [Sprint 4 — Finalização e entrega](documentacao/gestao_monitoramento_sprint4.md)
+
+### 🎓 Projeto Interdisciplinar III — 2026/2
 
 - [Template do Projeto Interdisciplinar III](documentacao/TEMPLATE%20DE%20PROJETO%20III.pdf)
-- [Relato de experiência da ação de extensão](documentacao/RELATO%20DE%20EXPERI%C3%8ANCIA%20DE%20A%C3%87%C3%83O%20DE%20EXTENS%C3%83O.pdf)
 - [Relatório de teste de usabilidade e lições aprendidas](documentacao/RELAT%C3%93RIO%20DE%20TESTE%20DE%20USABILIDADE%20E%20LI%C3%87%C3%95ES%20APRENDIDAS.docx.pdf)
 
-Os documentos apresentam o desenvolvimento do projeto, as ações de extensão e os resultados dos testes realizados na USF Vila Amélia.
+### 🤝 Projeto e Ações de Extensão
+
+- [Projeto de Extensão — Documento original](documentacao/PROJETO%20DE%20EXTENS%C3%83O.docx%20%281%29.pdf)
+- [Projeto de Extensão — Registro no GitHub](documentacao/Projeto_de_extensão)
+- [Relato de experiência da ação de extensão](documentacao/RELATO%20DE%20EXPERI%C3%8ANCIA%20DE%20A%C3%87%C3%83O%20DE%20EXTENS%C3%83O.pdf)
+
+### 🎥 Demonstração do Produto
+
+- [Vídeo de Demonstração do Projeto](documentacao/Vídeo%20de%20Demonstração)
+
+### 📄 Produção Acadêmica
+
+- [Artigo Técnico Final — BI Vacinas RMC](Artigo_Tecnico_Final.pdf)
+
+Os documentos apresentam o desenvolvimento do projeto, as decisões técnicas, as atividades realizadas, as ações de extensão e os resultados dos testes realizados na USF Vila Amélia.
+
+---
+
 
 
 ## 📊 Fontes dos Dados
@@ -253,12 +274,14 @@ O desenvolvimento foi organizado em quatro sprints, documentando o planejamento,
 | Sprint 3 | Prototipação e desenvolvimento | 08/04 a 29/04/2026 | Protótipo no Figma, integração das bases e desenvolvimento do dashboard. |
 | Sprint 4 | Finalização e entrega | 20/04 a 30/04/2026 | Revisão dos dados, KPIs, filtros, layout e documentação. |
 
+
 ### 📂 Documentos de Gestão e Monitoramento
 
-- [Sprint 1 — Ideação e planejamento](documentacao/Sprint_1.pdf)
-- [Sprint 2 — Pesquisa e levantamento de requisitos](documentacao/Sprint_2.pdf)
-- [Sprint 3 — Prototipação e desenvolvimento](documentacao/Sprint_3.pdf)
-- [Sprint 4 — Finalização e entrega](documentacao/Sprint_4.pdf)
+- [Sprint 1 — Ideação e planejamento](documentacao/gestao_monitoramento_sprint1.md)
+- [Sprint 2 — Pesquisa e levantamento de requisitos](documentacao/gestao_monitoramento_sprint2.md)
+- [Sprint 3 — Prototipação e desenvolvimento](documentacao/gestao_monitoramento_sprint3.md)
+- [Sprint 4 — Finalização e entrega](documentacao/gestao_monitoramento_sprint4.md)
+
 
 ### 📊 Indicadores de acompanhamento
 
