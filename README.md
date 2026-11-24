@@ -108,11 +108,12 @@ Os documentos registram a trajetória do projeto desde a ideação, o planejamen
 - [Template do Projeto Interdisciplinar III](documentacao/TEMPLATE%20DE%20PROJETO%20III.pdf)
 - [Relatório de teste de usabilidade e lições aprendidas](documentacao/RELAT%C3%93RIO%20DE%20TESTE%20DE%20USABILIDADE%20E%20LI%C3%87%C3%95ES%20APRENDIDAS.docx.pdf)
 
+
 ### 🤝 Projeto e Ações de Extensão
 
 - [Projeto de Extensão — Documento original](documentacao/PROJETO%20DE%20EXTENS%C3%83O.docx%20%281%29.pdf)
-- [Projeto de Extensão — Registro no GitHub](documentacao/Projeto_de_extensão)
 - [Relato de experiência da ação de extensão](documentacao/RELATO%20DE%20EXPERI%C3%8ANCIA%20DE%20A%C3%87%C3%83O%20DE%20EXTENS%C3%83O.pdf)
+
 
 ### 🎥 Demonstração do Produto
 
