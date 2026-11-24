@@ -234,6 +234,50 @@ A comparação possui caráter exclusivamente descritivo e complementar, contrib
 
 ---
 
+---
+
+## 💡 Ideação e Evolução do Projeto
+
+O projeto BI Vacinas RMC teve início em 5 de março de 2026, a partir da proposta de utilizar ferramentas de Business Intelligence para facilitar a análise dos indicadores de cobertura vacinal na Região Metropolitana de Curitiba.
+
+A ideação envolveu pesquisas de bases públicas, consultas a profissionais de saúde, identificação de necessidades e definição do escopo do projeto.
+
+O desenvolvimento foi organizado em quatro sprints, documentando o planejamento, as atividades realizadas, as dificuldades encontradas, as decisões técnicas e as lições aprendidas.
+
+### 📅 Histórico das Sprints
+
+| Sprint | Etapa | Período | Principais atividades |
+|---|---|---|---|
+| Sprint 1 | Ideação e planejamento | 05/03 a 22/03/2026 | Definição do tema, pesquisa de dados públicos e modelagem inicial. |
+| Sprint 2 | Pesquisa e requisitos | 24/03 a 08/04/2026 | Capacitação em Power BI e definição dos indicadores. |
+| Sprint 3 | Prototipação e desenvolvimento | 08/04 a 29/04/2026 | Protótipo no Figma, integração das bases e desenvolvimento do dashboard. |
+| Sprint 4 | Finalização e entrega | 20/04 a 30/04/2026 | Revisão dos dados, KPIs, filtros, layout e documentação. |
+
+### 📂 Documentos de Gestão e Monitoramento
+
+- [Sprint 1 — Ideação e planejamento](documentacao/Sprint_1.pdf)
+- [Sprint 2 — Pesquisa e levantamento de requisitos](documentacao/Sprint_2.pdf)
+- [Sprint 3 — Prototipação e desenvolvimento](documentacao/Sprint_3.pdf)
+- [Sprint 4 — Finalização e entrega](documentacao/Sprint_4.pdf)
+
+### 📊 Indicadores de acompanhamento
+
+- 4 sprints documentadas;
+- 24 tarefas planejadas;
+- 24 tarefas registradas como concluídas;
+- Registros de Daily Scrum;
+- Planejamento das sprints;
+- Sprint Review e Sprint Retrospective;
+- Registro de dificuldades e lições aprendidas.
+
+### 🚀 Continuidade do Projeto — 2026/2
+
+No Projeto Interdisciplinar III, o trabalho teve continuidade com o aprimoramento do dashboard, a avaliação de usabilidade com profissionais da USF Vila Amélia e a realização de uma ação de extensão voltada à comunicação dos indicadores de cobertura vacinal à comunidade.
+
+O projeto integra tecnologia, análise de dados, saúde pública e responsabilidade social.
+
+---
+
 ## 📌 Metodologia
 
 O projeto foi desenvolvido utilizando:
