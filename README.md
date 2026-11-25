@@ -127,6 +127,30 @@ Os documentos apresentam o desenvolvimento do projeto, as decisões técnicas, a
 
 ---
 
+## 🔐 Termos de Consentimento — Teste de Usabilidade
+
+O teste de usabilidade do dashboard BI Vacinas RMC foi realizado nos dias 15 e 16 de outubro de 2026, na Unidade de Saúde da Família Vila Amélia, em Pinhais/PR, com a participação de sete profissionais.
+
+### Declaração 1 — Participação coletiva
+
+A declaração coletiva foi preenchida e assinada manualmente por seis participantes.
+
+### Declaração 2 — Participação individual
+
+O sétimo participante realizou o teste de usabilidade, porém não assinou a declaração coletiva na ocasião.
+
+Devido à indisponibilidade presencial do participante, que se encontrava em viagem, foi elaborada uma declaração individual para assinatura eletrônica por meio da plataforma GOV.BR.
+
+O documento registra a confirmação da participação anteriormente realizada e a autorização de uso dos resultados para fins acadêmicos, respeitando a data efetiva da assinatura, sem retroagir à data do teste.
+
+### Privacidade e proteção dos dados
+
+Para preservar a identidade e a privacidade dos participantes, os documentos disponibilizados no repositório foram anonimizados.
+
+Os documentos originais permanecem sob guarda restrita para eventual conferência acadêmica.
+
+- [Termos de Consentimento — Versão Anonimizada](documentacao/Termos_Consentimento_Usabilidade_Anonimizados.pdf)
+
 
 
 ## 📊 Fontes dos Dados
