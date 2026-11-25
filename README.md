@@ -338,6 +338,47 @@ O desenvolvimento do dashboard foi organizado em cinco etapas, desde a obtençã
 - Comparação entre municípios da Região Metropolitana de Curitiba;
 - Gráficos interativos.
 
+## 📊 Tratamento de valores de cobertura superiores a 100%
+
+Durante a análise dos dados de cobertura vacinal, foram identificados valores superiores a 100%.
+
+O maior valor encontrado foi de **385,71%**, correspondente ao seguinte registro:
+
+| Informação | Registro |
+|---|---|
+| Município | Piên – PR |
+| Vacina | Tríplice Viral |
+| Ano | 2019 |
+| Cobertura vacinal | 385,71% |
+
+Após a conferência da planilha original, constatou-se que esse valor já estava presente na base de dados consultada, não sendo resultado de erro de cálculo da medida DAX utilizada no dashboard.
+
+A medida utilizada no Power BI é:
+
+```dax
+Maior Cobertura = MAX('Cobertura Vacinal'[Cobertura])
+```
+
+Valores superiores a 100% podem ocorrer em razão de:
+
+- Diferenças entre a população-alvo estimada e as doses contabilizadas;
+- Vacinação de pessoas residentes em outros municípios;
+- Divergências nas estimativas populacionais;
+- Inconsistências nos registros de vacinação.
+
+Não foi possível determinar a causa específica do percentual registrado no município de Piên.
+
+### Regra metodológica adotada
+
+- Preservação dos valores originais da base de dados;
+- Não limitação artificial dos percentuais a 100%;
+- Não exclusão automática dos registros superiores a 100%;
+- Interpretação cautelosa dos valores elevados;
+- Transparência e rastreabilidade das informações.
+
+Os valores superiores a 100% permanecem nas análises, mas não devem ser interpretados como a proporção real de pessoas distintas vacinadas.
+
+
 ### ✅ Resultado
 
 Dashboard desenvolvido e avaliado inicialmente com usuários reais.
