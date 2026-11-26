@@ -25,6 +25,8 @@ As planilhas de cobertura vacinal estão disponíveis para consulta, reproduçã
 - **Abrangência:** Região Metropolitana de Curitiba (RMC).
 - **Informações analisadas:** município, vacina, ano e cobertura vacinal.
 - **Ferramentas:** Excel, Power Query e Power BI.
+- **Fonte compiladora:** IPARDES — Base de Dados do Estado (BDE).
+- **Fonte primária:** Ministério da Saúde / DATASUS / SI-PNI.
 
 Os nomes originais dos arquivos foram preservados para facilitar a rastreabilidade e a auditoria dos dados.
 
@@ -35,6 +37,7 @@ Os nomes originais dos arquivos foram preservados para facilitar a rastreabilida
 - **Fonte:** Sistema de Registro Nacional Migratório (SISMIGRA).
 - **Órgão responsável:** Polícia Federal.
 - **Disponibilização:** Ministério da Justiça e Segurança Pública — Observatório das Migrações Internacionais (OBMigra).
+- **Data de acesso:** 19 de abril de 2026.
 
 ### Arquivos originais utilizados
 
@@ -108,7 +111,7 @@ O tratamento dos dados foi realizado com o auxílio do Excel e do Power Query.
 - Consolidação das quantidades de registros migratórios.
 - Criação da chave Município-Ano.
 - Revisão dos relacionamentos entre as tabelas.
-- Recuperação dos registros de 2020 na visualização do dashboard.
+- Recuperação dos 2.873 registros de 2020 na visualização do dashboard.
 - Exportação da base agregada em formato CSV UTF-8.
 
 ---
@@ -127,8 +130,6 @@ O tratamento dos dados foi realizado com o auxílio do Excel e do Power Query.
 
 - O percentual inferior a 80% foi adotado como critério analítico do projeto para identificação de coberturas reduzidas, não representando uma meta oficial única para todas as vacinas.
 
-- A identificação completa da fonte original de cobertura vacinal deverá ser complementada nesta documentação.
-
 ---
 
 ## 🔒 Privacidade e transparência
@@ -139,14 +140,45 @@ A publicação dos dados tratados contribui para a transparência, a rastreabili
 
 ---
 
-## 📚 Referência dos dados migratórios
+## 📚 Referências das bases de dados
+
+### Dados migratórios
 
 BRASIL. Ministério da Justiça e Segurança Pública. Observatório das Migrações Internacionais (OBMigra). Sistema de Registro Nacional Migratório (SISMIGRA). Microdados referentes ao período de 2019 a 2024.
+
+Órgão responsável: Polícia Federal.
 
 Disponível em:
 https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/obmigra-1/microdados/sismigra/SISMIGRA
 
-Data de acesso: a confirmar.
+Acesso em: 19 abr. 2026.
+
+### Dados de cobertura vacinal
+
+INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL (IPARDES). Base de Dados do Estado (BDE). Saúde — Imunizações: Cobertura Vacinal. Curitiba: IPARDES.
+
+Disponível em:
+https://www.ipardes.pr.gov.br/
+
+- **Fonte compiladora:** IPARDES — Sistema Estadual de Informações / Base de Dados do Estado (BDE).
+- **Fonte primária:** Ministério da Saúde / DATASUS.
+- **Sistema de origem:** Sistema de Informação do Programa Nacional de Imunizações (SI-PNI).
+- **Período analisado:** 2019 a 2024.
+
+BRASIL. Ministério da Saúde. Departamento de Informática do Sistema Único de Saúde (DATASUS). Sistema de Informação do Programa Nacional de Imunizações (SI-PNI).
+
+Disponível em:
+https://datasus.saude.gov.br/
+
+Os dados são consolidados a partir das informações de vacinação registradas pelos serviços municipais e estaduais de saúde.
+
+### Rastreabilidade das informações de vacinação
+
+Serviços municipais e estaduais de saúde
+→ Ministério da Saúde / SI-PNI / DATASUS
+→ IPARDES / BDE
+→ Excel e Power Query
+→ Dashboard BI Vacinas RMC.
 
 ---
 
