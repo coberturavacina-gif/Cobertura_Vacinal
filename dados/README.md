@@ -3,7 +3,16 @@
 
 Esta pasta destina-se ao armazenamento e à documentação das bases de dados utilizadas no projeto BI Vacinas RMC, permitindo a rastreabilidade, a reprodução e a auditoria das informações apresentadas no dashboard.
 
-## 💉 Dados de cobertura vacinal
+
+### Dados de cobertura vacinal
+
+INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL (IPARDES). Base de Dados do Estado (BDE). Saúde — Imunizações: Cobertura Vacinal. Curitiba: IPARDES.
+
+Disponível em:
+https://www.ipardes.pr.gov.br/
+
+Acesso em: 25 abr. 2026.
+
 
 As planilhas de cobertura vacinal estão disponíveis para consulta, reprodução e auditoria dos dados do projeto BI Vacinas RMC.
 
