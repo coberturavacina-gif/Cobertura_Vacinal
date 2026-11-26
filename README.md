@@ -120,12 +120,12 @@ Os documentos registram a trajetória do projeto desde a ideação, o planejamen
 - [Vídeo de Demonstração do Projeto](documentacao/Vídeo%20de%20Demonstração)
 
 ### 📄 Produção Acadêmica
+## 📄 Artigo Técnico
 
-- [Artigo Técnico Final — BI Vacinas RMC](Artigo_Tecnico_Final.pdf)
+- [Artigo Técnico Original – Primeiro Semestre](Artigo_Tecnico_Final.pdf)
+- [Artigo Técnico Atualizado – Novembro de 2026](documentacao/Artigo_Tecnico_Final_Atualizado.pdf)
 
-Os documentos apresentam o desenvolvimento do projeto, as decisões técnicas, as atividades realizadas, as ações de extensão e os resultados dos testes realizados na USF Vila Amélia.
-
----
+A versão atualizada contempla as correções do dashboard, a revisão dos registros migratórios, os resultados do teste de usabilidade e a ação extensionista.
 
 ## 🔐 Termos de Consentimento — Teste de Usabilidade
 
